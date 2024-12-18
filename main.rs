@@ -14,7 +14,7 @@ fn main()
     let intinput1 :u64 = input1.trim().parse().unwrap(); // Converting String to Integer (Type Casting)
 
     println!("Enter Text: ");
-    let mut input2 = String::new();
+    let mut input2 = String::new(); // Creating a Empty String
     io::stdin().read_line(&mut input2).expect("Error !");
     let intinput2 :u64 = input2.trim().parse().unwrap();
 
