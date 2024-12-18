@@ -11,7 +11,7 @@ fn main()
     println!("Enter Text: ");
     let mut input1 = String::new(); // Creating a Empty String
     io::stdin().read_line(&mut input1).expect("Error !"); // Taking User Input
-    let intinput1 :u64 = input1.trim().parse().unwrap(); // Converting String to Integer
+    let intinput1 :u64 = input1.trim().parse().unwrap(); // Converting String to Integer (Type Casting)
 
     println!("Enter Text: ");
     let mut input2 = String::new();
